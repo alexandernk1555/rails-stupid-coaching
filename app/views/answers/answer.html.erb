@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="sentence mt-5 mb-5">
+    <h3>Please answer your coach's question:</h3>
+  </div>
+  <div class="question text-uppercase font-weight-bold font-italic">
+    <p><%= @question %></p>
+  </div>
+  <div class="answer">
+    <p><%= @answer %></p>
+  </div>
+  <div class="link font-weight-bold">
+    <%= link_to "go back", ask_path %>
+  </div>
+</div>
